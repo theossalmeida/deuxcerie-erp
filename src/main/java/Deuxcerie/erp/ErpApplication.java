@@ -1,13 +1,12 @@
 package Deuxcerie.erp;
 
-import org.springframework.boot.SpringApplication;
+import javafx.application.Application;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class ErpApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ErpApplication.class, args);
+		Application.launch(JavaFxApplication.class, args);
 	}
-
 }
